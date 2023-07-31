@@ -1,12 +1,12 @@
 class UserModel {
-  UserModel(this.id, this.name);
+  UserModel({required this.id, required this.name});
 
   final int id;
   final String name;
 }
 
-class BalabceModel {
-  BalabceModel(this.user, this.balance);
+class BalanceModel {
+  BalanceModel({required this.user, required this.balance});
 
   final UserModel user;
   final double balance;

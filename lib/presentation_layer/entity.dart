@@ -1,3 +1,5 @@
+import 'dart:mirrors';
+
 class UserEntity extends BaseEntity {
   final int id;
   final String name;
@@ -12,4 +14,9 @@ class BalanceEntity extends BaseEntity {
   BalanceEntity(this.user, this.balance);
 }
 
-abstract class BaseEntity {}
+abstract class BaseEntity {
+  void setField(Symbol field, dynamic value) {
+    final instanceMirror = reflect(this);
+    instanceMirror.setField(field, value);
+  }
+}

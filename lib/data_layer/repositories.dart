@@ -4,11 +4,12 @@ import 'models.dart';
 
 Future<UserModel> getUser() async => Future<UserModel>.delayed(
       const Duration(seconds: 1),
-      () => UserModel(1, 'Ahrar'),
+      () => UserModel(id: 1, name: 'Ahrar'),
     );
 
-Stream<BalabceModel> getBalabce(UserModel user) =>
-    Stream<BalabceModel>.periodic(
+Stream<BalanceModel> getBalance(UserModel user) =>
+    Stream<BalanceModel>.periodic(
       const Duration(seconds: 1),
-      (int count) => BalabceModel(user, Random().nextDouble() * 1000),
+      (int count) =>
+          BalanceModel(user: user, balance: Random().nextDouble() * 1000),
     );
