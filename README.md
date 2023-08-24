@@ -23,7 +23,7 @@ When a UI component requires data to populate its UI model entities, it initiate
 
 #### Dependency Resolution
 
-The Engine Layer is aware of the data dependencies within the application, thanks to the XML file defined by the developer. If one API call depends on the data retrieved from another API call (e.g., authentication preceding data retrieval), the Engine Layer intelligently resolves these dependencies.
+The Engine Layer is aware of the data dependencies within the application, thanks to the dependency file defined by the developer. If one API call depends on the data retrieved from another API call (e.g., authentication preceding data retrieval), the Engine Layer intelligently resolves these dependencies.
 
 #### Data Retrieval
 
@@ -43,7 +43,7 @@ The Data Layer represents the external data sources, typically in the form of AP
 
 The Engine Layer significantly simplifies application development and offers a host of advantages:
 
-- **Reusability**: The Engine Layer is designed for reuse across various projects. Developers only need to configure the XML dependency and specify the data model folder directory to integrate it into new projects.
+- **Reusability**: The Engine Layer is designed for reuse across various projects. Developers only need to configure the dependency and specify the data model folder directory to integrate it into new projects.
 
 - **Automatic API Handling**: The Engine Layer automates API call management, making it easier for developers to focus on building features rather than dealing with intricate data retrieval and dependency resolution.
 
@@ -53,5 +53,8 @@ The Engine Layer significantly simplifies application development and offers a h
 
 By adopting this architectural approach, you create a plug-and-play system that enhances code reusability, maintainability, and scalability in your projects. It simplifies complex data management tasks, empowering developers to create robust applications efficiently.
 
-![solution](https://github.com/ahrar-deriv/dart_ahrar_architecture_poc/assets/98078754/ede98b19-9048-4c07-944f-ea6d3e55bef9)
+![solution-update2](https://github.com/ahrar-deriv/dart_ahrar_architecture_poc/assets/98078754/8864b262-1370-46ec-b8dd-b3aa3f22ce34)
+
+
+
 
