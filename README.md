@@ -3,15 +3,15 @@
 Welcome to the Engine – more than an architectural framework, it's a comprehensive solution simplifying data management and dependency resolution within your application with its three-layered structure ensuring efficient data flow.
 ## 1. UI Layer
 
-The UI Layer acts as the presentation layer where developers define a versatile model class capable of encompassing fields from various API requests. This model class, referred to as the UI model entity, serves as a mixed object. Developers craft these entities to represent the data they need to display or work with in the application's user interface. These entities are the bridge between the UI and Engine layers.
+The UI Layer acts as the presentation layer where developers define a versatile model class capable of encompassing fields from various API requests. This model class, referred to as the UI model entity, serves as a mixed object. Developers craft these entities to represent the data they need to display or work within the application's user interface. These entities are the bridge between the UI and Engine layers.
 
 ## 2. Engine Layer
 
 The Engine Layer is the central intelligence of the architecture, responsible for orchestrating data retrieval, processing, and distribution. It plays a pivotal role in enhancing code reusability, maintainability, and the overall efficiency of the application. The core features of the Engine Layer include:
 
-### 2.1 Observer Pattern
+### 2.1 Observer Layer
 
-The cornerstone of the Engine Layer's functionality is the Observer pattern. This pattern enables efficient and asynchronous communication between the UI Layer and the Engine Layer. Here's a detailed breakdown of how the Observer pattern is employed:
+The cornerstone of the Engine Layer's functionality is based on the Observer pattern. This layer enables efficient and asynchronous communication between the UI Layer and the Engine Layer. Here's a detailed breakdown of how the Observer layer is employed:
 
 #### Registration
 
