@@ -52,3 +52,6 @@ The Engine Layer significantly simplifies application development and offers a h
 - **Flexibility**: Introducing new features or modifying existing ones becomes straightforward, as developers only need to pass a UI model entity to the Engine Layer. The Engine Layer, in turn, takes care of data retrieval, dependency resolution, and data distribution.
 
 By adopting this architectural approach, you create a plug-and-play system that enhances code reusability, maintainability, and scalability in your projects. It simplifies complex data management tasks, empowering developers to create robust applications efficiently.
+
+![solution](https://github.com/ahrar-deriv/dart_ahrar_architecture_poc/assets/98078754/ede98b19-9048-4c07-944f-ea6d3e55bef9)
+
